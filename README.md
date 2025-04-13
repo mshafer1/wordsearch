@@ -51,13 +51,15 @@ In future, there may be a website, but for now, this is just a command line tool
 
 1. Download the repo
 
-    <details><summary>Option 1: Using Git (requires having [Git](https://git-scm.com/) installed already)</summary>
-    `git clone https://github.com/mshafer1/wordsearch.git`
+    <details><summary>Option 1: Using Git (requires having <a href="https://git-scm.com/">Git</a> installed already)</summary>
+    <pre>git clone https://github.com/mshafer1/wordsearch.git</pre>
     </details>
     
     <details open><summary>Option 2: Download a zipfile of the source</summary>
-    - Use the "Source" menu at the [top of the repo](https://github.com/mshafer1/wordsearch.git) and select "Download Zip"
-    - Extract the zip file
+    <ul>
+    <li>Use the "Source" menu at the <a href="https://github.com/mshafer1/wordsearch.git">top of the repo</a> and select "Download Zip"</li>
+    <li>Extract the zip file</li>
+    </ul>
     </details>
 
 1. CD into the repo
@@ -66,7 +68,7 @@ In future, there may be a website, but for now, this is just a command line tool
 
 2. Install deps and run the script
 
-    <details><summary>Option 1: Using poetry (requires having [poetry](https://python-poetry.org/) installed)</summary>
+    <details><summary>Option 1: Using poetry (requires having <a href="https://python-poetry.org">poetry</a> installed)</summary>
     <pre>poetry install</pre>
     <br/>
     <pre>poetry run wordsearch --help</pre>
