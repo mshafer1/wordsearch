@@ -19,7 +19,7 @@ After generating a mapping, if `offensive_words.txt` is present or, `all_english
 `all_english_words.txt` can be downloaded (and renamed) from [dwyl/english-words](https://github.com/dwyl/english-words/blob/master/words.txt) (I am choosing to not redistribute this 4.64MB file both for the sake of the size of this repo, but also to maintain attribution to user dwyl and other maintainers who have been maintaining this list)
 
 
-`offensive_words.txt` -> It felt *really* weird to make a text file of cuss words, private body parts, and other non-age appropriate words. On top of that, my intention was not to build a library of foul language. As such, I am also choosing to not distribute this file in the repo. I got mine started by prompting Chat GPT:
+`offensive_words.txt` -> It felt *really* weird to make a text file of cuss words, private body parts, and other non child-appropriate words. On top of that, my intention was not to build a library of foul language. As such, I am also choosing to not distribute this file in the repo. I got mine started by prompting Chat GPT:
 
 > I'm working on having a bot generate word searches for children. Can you help me come up with words it should avoid accidentally listing to keep it kid friendly?
 
