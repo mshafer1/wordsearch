@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "wordsearch"
+version = "0.1.0"
+description = "A Tool to generate wordsearches"
+authors = ["Matthew <2565361+mshafer1@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.scripts]
+wordsearch = "wordsearch.__main__:main"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+click = "^8.1.8"
+tqdm = "^4.67.1"
+
+
+[tool.poetry.group.test.dependencies]
+pytest = "^8.3.5"
+pytest-snapshot = "^0.9.0"
+
+
+[tool.poetry.group.lint.dependencies]
+ni-python-styleguide = "^0.4.6"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
