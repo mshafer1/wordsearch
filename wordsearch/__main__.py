@@ -202,7 +202,7 @@ def _place_word(grid: typing.List[typing.List[str]], word: str, direction: _Dire
     "--hardness-level",
     type=click.Choice(["easy", "medium", "hard"], case_sensitive=False),
     default="medium",
-    help="Hardness level of the word search. Easy has all words left to right, medium adds downwards and right-(up/down), hard adds backwards and left-(up/down).",
+    help="Hardness level of the word search. Easy has all words left to right; medium adds backwards, down, and right-down; hard adds right-up and left-(up/down). (default: medium)",
 )
 @click.option(
     "--random-seed",
@@ -266,7 +266,6 @@ def main(
             _Direction.REVERSE,
             _Direction.DOWN,
             _Direction.RIGHT_DOWN,
-            _Direction.RIGHT_UP,
         ],
         "hard": list(_Direction),
     }
